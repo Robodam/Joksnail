@@ -27,16 +27,28 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+
+.need_help {
+  position: relative;
+  display: none;
+  left: 30px;
+}
+.need_help {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .back-to-top {
   position: fixed;
   display: none;
   right: 15px;
-  bottom: 15px;
+  bottom: 90px;
   z-index: 99999;
 }
 
 .back-to-top i {
   display: flex;
+
   align-items: center;
   justify-content: center;
   font-size: 24px;
