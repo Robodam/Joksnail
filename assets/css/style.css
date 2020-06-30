@@ -601,7 +601,7 @@ section {
   margin: auto;
   padding: 70px 20px 50px;
   box-shadow: 10px 15px 30px rgba(255, 255, 254, 0.363);
-  transition: all ease-in-out 0s;
+  transition: all ease-in-out 0.3s;
 }
 
 .about .content ul {
