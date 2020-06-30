@@ -195,7 +195,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: #423406;
 }
 
 #header .logo img {
@@ -216,7 +216,7 @@ h6 {
   #header {
     top: 0;
     padding: 15px 0;
-    background: #d4d876;
+    background: white;
   }
   #header .logo {
     font-size: 28px;
@@ -253,7 +253,7 @@ h6 {
   font-weight: 100px;
   display: block;
   position: relative;
-  color: white;
+  color: #423406;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
