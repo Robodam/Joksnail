@@ -172,7 +172,8 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(52, 58, 64, 0.2);
+  /* background: rgba(52, 58, 64, 0.2); */
+  background: white;
   transition: all 0.5s;
   z-index: 997;
   top: 40px;
@@ -207,11 +208,15 @@ h6 {
   justify-content: center;
 }
 
+.jks_nav {
+  background: black;
+  float: right;
+}
 @media (max-width: 992px) {
   #header {
     top: 0;
     padding: 15px 0;
-    background: transparent;
+    background: #d4d876;
   }
   #header .logo {
     font-size: 28px;
@@ -248,7 +253,7 @@ h6 {
   font-weight: 100px;
   display: block;
   position: relative;
-  color: rgb(0, 0, 0);
+  color: white;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -1421,7 +1426,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0c0c0c;
+  background: #423406;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1433,7 +1438,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #191919;
+  background: #423406;
   color: #fff;
   border-top: 4px solid #99cc16;
   text-align: center;
