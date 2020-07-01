@@ -172,8 +172,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  /* background: rgba(52, 58, 64, 0.2); */
-  background: white;
+  background: rgba(52, 58, 64, 0.2);
   transition: all 0.5s;
   z-index: 997;
   top: 40px;
@@ -181,7 +180,7 @@ h6 {
 
 #header.header-scrolled {
   top: 0;
-  background: rgb(255, 255, 255);
+  background: black;
 }
 
 #header .logo {
@@ -253,7 +252,7 @@ h6 {
   font-weight: 100px;
   display: block;
   position: relative;
-  color: #423406;
+  color: white;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
