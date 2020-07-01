@@ -207,15 +207,12 @@ h6 {
   justify-content: center;
 }
 
-.jks_nav {
-  background: black;
-  float: right;
-}
 @media (max-width: 992px) {
   #header {
     top: 0;
     padding: 15px 0;
-    background: white;
+    /* background: black; */
+    background: rgba(52, 58, 64, 0.2);
   }
   #header .logo {
     font-size: 28px;
@@ -359,7 +356,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #99cc16;
+  color: white;
 }
 
 .mobile-nav {
